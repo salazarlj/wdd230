@@ -40,8 +40,8 @@ header img {
 div {
     background: #fff;
 }
-h1 {
 
+h1 {
     margin: 0 auto;
 }
 
@@ -50,8 +50,8 @@ h2 {
     color: #fff;
     background: #FA7921;
     border-radius: 8px;
-
 }
+
 li {
     font-family: "Open Sans", sans-serif;
     margin-left: 20px;
@@ -61,5 +61,15 @@ li {
 footer {
     margin: 1rem auto;
     font-family: "Open Sans", sans-serif;
-    
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    align-items: center;
 }
+
+.text-footer {
+    margin: 1rem auto;
+   
+    
+    color: blue;
+  }
+  
