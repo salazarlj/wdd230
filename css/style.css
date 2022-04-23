@@ -72,3 +72,8 @@ footer {
   margin: 1rem auto;
   color: blue;
 }
+
+a:hover {
+  color: #00FF00;
+  background: #283350;
+}
