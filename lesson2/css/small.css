@@ -19,11 +19,11 @@ header {
 
 body {
   font-family: "Kalam", cursive;
-  background-color: #81b8ef;
+  background-color: white;
   font-size: 16px;
   max-width: 950px;
   margin: 0 auto;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 main {
