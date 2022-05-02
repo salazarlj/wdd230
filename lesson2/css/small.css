@@ -31,13 +31,70 @@ main {
   font-size: 17px;
   background: white;
   margin-left: 10px; 
- /*margin: 10px auto;
-  width: 400px;
-  border:1px solid #bbb;
+  
+}
 
-  padding: 7px;*/
+.section1 {
+  background: lightcyan;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+  margin-top: 10px;
+}
+
+.section2 {
+  background: rgb(207, 241, 241);
+  border-radius: 8px;
+  border: 1px solid #bbb;
+  margin-top: 10px;
+}
+
+.section3 {
+  background: rgb(139, 166, 166);
+  border-radius: 8px;
+  border: 1px solid #bbb;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  color: blue;
+  margin: 1rem auto;
+  margin-left: 20px;
+  font-family: "Audiowide", Arial, cursive;
+  background-color: white;
 
 }
+
+section h3 {
+  background-color: darkslategrey;
+  color: white;
+  margin: 0;
+  height: 28px;
+  padding: 7px;
+  border-radius: 10px 10px 0 0;
+  margin-right: 15px;
+}
+
+h1, h2 {
+  margin: 1rem auto;
+  color: #fff;
+  border-radius: 8px;
+} 
+
+
+section p {
+  font-family: 'Montserrat', sans-serif;
+ 
+  margin-right: 13px;
+  line-height: 1.5;
+}
+
+
+img {
+  justify-self: center;
+  margin-top: 5px;
+}
+
 
 
 
