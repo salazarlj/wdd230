@@ -1,6 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Lexend+Deca:wght@200&family=Montserrat+Alternates:wght@200&family=Sofia&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Lexend+Deca:wght@200&family=Montserrat+Alternates:wght@200&family=Sofia&display=swap");
 
 * {
   margin: 0;
@@ -10,19 +8,20 @@
 
 body {
   font-family: "Kalam", cursive;
-  background-color: #81b8ef;
+  background-color: #02080e;
   font-size: 16px;
-  max-width: 850px;
+  max-width: 815px;
   margin: 0 auto;
-  border: 5px solid black;
+  border: 5px solid white;
 }
 
 header,
 main,
 footer {
-  max-width: 700px;
+  max-width: 790px;
   margin: 0 auto;
   font-family: "Audiowide", Arial, cursive;
+  background-color: white;
 }
 
 header {
@@ -30,35 +29,48 @@ header {
   border: 1px solid #bbb;
   padding: 0.5rem;
   background: linear-gradient(#f4b41a, white);
-  display: grid;
-  grid-template-columns: 200px 1fr;
-  align-items: center;
   border-radius: 8px;
+  text-align: center;
 }
 
 header img {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 1px 1px 4px 1px #888;
+  transition: all 0.25s;
 }
 
-div {
-  background: #fff;
+header img:hover{
+  transform: translateY(5px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
-h1 {
-  margin: 0 auto;
+.grid-header {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.perfil-grid {
+  grid-column: 1/2;
+}
+
+.author-grid {
+  grid-column: 2/5;
+  margin-top: 80px;
 }
 
 h2 {
   margin: 1rem auto;
-  color: #fff;
-  background: linear-gradient(#283350, #81b8ef);
+  color: black;
+  background: linear-gradient(#f4b41a, white);
   border-radius: 8px;
+  text-align: center;
 }
 
 li {
   font-family: "Open Sans", sans-serif;
-  margin-left: 20px;
+  margin-left: 40px;
   font-size: 20px;
 }
 
@@ -76,6 +88,19 @@ footer {
 }
 
 a:hover {
-  color: #00FF00;
+  color: #00ff00;
   background: #283350;
+}
+
+.main-message p{
+  background-color: white;
+  color: black;
+  font-size:x-large;
+  text-align: justify;
+}
+
+.main-link a{ 
+  color: yellow;
+  font-family: "Audiowide", Arial, cursive;
+  font-size:x-large;
 }

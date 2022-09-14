@@ -5,8 +5,6 @@ const autorCountry = "Nicaragua";
 document.querySelector("#author").textContent = authorName;
 document.querySelector("#author2").textContent = authorName;
 
-//alert("HEllo");
-
 //Getting Course's name
 document.querySelector("#country").textContent = autorCountry;
 
