@@ -9,12 +9,11 @@ header {
   background: #283350;
   margin: 1rem auto;
   padding: 0.5rem;
-  align-items: center;
   text-align: center;
   border-radius: 8px;
   border: 1px solid #bbb;
   color: white;
-  margin-left: 15px;
+  margin-left: 50px;
 }
 
 body {
@@ -23,7 +22,7 @@ body {
   font-size: 16px;
   max-width: 950px;
   margin: 0 auto;
-  /*border: 1px solid black;*/
+  text-align: justify;
 }
 
 main {
@@ -74,6 +73,18 @@ h1, h2 {
   border-radius: 8px;
 }
 
+h4 {
+  margin: 1rem auto;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background:aquamarine ;
+}
+
+h5 {
+  margin-left: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 section h3 {
   background-color: darkslategrey;
   color: white;
@@ -81,6 +92,8 @@ section h3 {
   height: 28px;
   padding: 7px;
   border-radius: 10px 10px 0 0;
+  text-align: center;
+  font-family: 'Montserrat', Helvetica, sans-serif;
 }
 
 
