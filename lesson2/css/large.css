@@ -5,6 +5,8 @@
   }
   header {
     max-width: 850px;
+    text-align: center;
+    margin: 1rem auto;
   }
 
   main {
@@ -28,6 +30,9 @@
     grid-column: 5/6;
     width: 300px;
     margin-top: 10px;
-  }
+   }
   
+  section p {
+    font-size: 20px;
+  }
 }

@@ -10,10 +10,12 @@ header {
   margin: 1rem auto;
   padding: 0.5rem;
   text-align: center;
+  align-items: center;
   border-radius: 8px;
   border: 1px solid #bbb;
   color: white;
-  margin-left: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 body {
@@ -26,12 +28,12 @@ body {
 }
 
 main {
-  width: 380px;
+  /*width: 380px;*/
   display: grid;
   grid-template-columns: 1fr;
   font-size: 17px;
   background: white;
-  margin-left: 10px; 
+  margin-left: 5px; 
   
 }
 
@@ -40,6 +42,7 @@ main {
   border-radius: 8px;
   border: 1px solid #bbb;
   margin-top: 10px;
+  margin-right: 5px;
 }
 
 .section2 {
@@ -47,7 +50,8 @@ main {
   border-radius: 8px;
   border: 1px solid #bbb;
   margin-top: 10px;
-  margin-left: 10px;
+  /*margin-left: 10px;*/
+  margin-right: 5px;
 }
 
 .section3 {
@@ -55,6 +59,7 @@ main {
   border-radius: 8px;
   border: 1px solid #bbb;
   margin-top: 10px;
+  margin-right: 5px;
 }
 
 footer {
