@@ -2,13 +2,14 @@
 /* phone or baseline views **************************/
 header,
 footer {
-	background-color: #aaa;
+	background-color: #336600;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
 	padding: .75rem;
 	border: 1px solid rgba(0, 0, 0, 0.2);
+	color: #fff;;
 }
 
 header,
@@ -22,11 +23,15 @@ h1 {
 }
 
 h2 {
-	color: #536878;
+	color: wheat;
+}
+
+article h2{
+	color: #283350;
 }
 
 nav {
-	background-color: #36454f;
+	background-color: #283350;
 	margin: 0 auto;
 	max-width: 780px;
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
@@ -35,6 +40,11 @@ nav ul {
 	list-style-type: none;
 	overflow: hidden;
 }
+
+article ul li {
+	margin-left: 10px;
+}
+
 nav ul li a {
 	display: block;
 	color: #fff;
@@ -45,6 +55,7 @@ nav ul li a {
 	background: linear-gradient(90deg, transparent, yellow, transparent) bottom /
 		var(--d, 0) 3px no-repeat;
 	transition: 0.5s;
+	
 }
 
 .active {
@@ -53,7 +64,7 @@ nav ul li a {
 main {
 	display: grid;
 	grid-template-columns: 1fr;
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 }
 
 main article {
@@ -61,14 +72,17 @@ main article {
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	padding: 1rem;
 	background-color: #eee;
+	text-align: justify;
+
 }
 
 main article ul {
 	margin: 1rem 0 0 1rem;
 }
 main picture {
-	display: none;
+	/*display: none;*/
 	margin: 1rem;
+	text-align: center;
 }
 
 footer p {
