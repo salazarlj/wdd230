@@ -1,0 +1,33 @@
+@charset "UTF-8"; /* not necessary */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+	font-family: "Sansita", Ubuntu, sans-serif;
+    background: wheat;
+}
+
+
+
+/* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+	h1 {
+		font-size: 2rem;
+	}
+
+	nav a {
+		font-size: 1.1rem;
+	}
+
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	article:nth-child(3) {
+		grid-column: span 1;
+	}
+}
+

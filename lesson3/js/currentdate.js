@@ -1,4 +1,4 @@
-const authorName = "Leonardo J. Salazar";
+const authorName = "Leonardo J. Salazar the one";
 const autorCountry = "Nicaragua";
 
 //Getting Author's name
