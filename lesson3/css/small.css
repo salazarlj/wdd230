@@ -23,7 +23,44 @@ h1 {
 }
 
 h2 {
-	color: wheat;
+	color: #f5deb3;
+}
+
+h3{
+	color: #000;
+}
+
+h4{
+	color:#eee;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+article a{
+	text-align: center;
+	margin-left: 15px;
+	font-size: 1rem;
+}
+.primary{
+	background-color: #336600;
+}
+.secundary{
+	background-color: #283350;
+}
+
+.accent1{
+	background-color: #F5DEB3;
+	color: #000;
+}
+
+.accent2{
+	background-color: #FFFF00;
+	color: #000;
+}
+
+.accent3{
+	background-color: #BAA8A8;
+	color: #000;
 }
 
 article h2{
@@ -90,5 +127,9 @@ footer p {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+main article .my-palette{
+	background: #336600;
 }
 

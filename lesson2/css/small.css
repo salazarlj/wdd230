@@ -90,6 +90,10 @@ h5 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+h4{
+  color: #000;
+
+}
 section h3 {
   background-color: darkslategrey;
   color: white;
@@ -109,7 +113,6 @@ section p {
   font-size: 20px;
   margin-left: 15px;
 }
-
 
 /*img {
   justify-self: center;
