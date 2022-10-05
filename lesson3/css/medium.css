@@ -45,8 +45,8 @@
 		flex-direction: row;
 	}
 	
-	footer p span:not(:last-child)::after {
+	/*footer p span:not(:last-child)::after {
 		content: ' 🧪\00a0';
-	}
+	}*/
 	
 }

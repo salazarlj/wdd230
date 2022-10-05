@@ -1,17 +1,24 @@
-const authorName = "Leonardo J. Salazar";
-const autorCountry = "Nicaragua";
 
-//Getting Author's name
-document.querySelector("#author").textContent = authorName;
-document.querySelector("#author2").textContent = authorName;
+const projectName = "Tourism of the Chinandega Chamber";
+const autorCountry = "SITE PLAN";
+const autorName = "Leonard J. Salazar";
+const countryAuthor = "Nicaragua";
 
-//Getting Course's name
-document.querySelector("#country").textContent = autorCountry;
+/*alert(projectName);
+alert(autorCountry);*/
+
+//Getting Informations
+document.querySelector("#project-name").textContent = projectName;
+document.querySelector("#title-name").textContent = autorCountry;
+document.querySelector("#author-name").textContent = autorName;
 
 //Getting Current Year
 const d = new Date();
-const currentYears = document.querySelector("#currenYear");
-currentYears.textContent = d.getFullYear();
+document.querySelector("#currenYear").textContent = d.getFullYear();
+
+//Getting Author Country
+document.querySelector("#author-name2").textContent = autorName;
+document.querySelector("#country").textContent = countryAuthor;
 
 //Getting Current Time
 const upateDates = document.querySelector("#updateDate");

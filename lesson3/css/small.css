@@ -133,3 +133,8 @@ main article .my-palette{
 	background: #336600;
 }
 
+picture p{
+	background-color: #eee;
+	font-size: larger;
+}
+
