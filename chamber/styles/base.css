@@ -1,6 +1,14 @@
 /* phone or baseline views **************************/
 /*Media Querie Globales*/
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Lexend+Deca:wght@200&family=Montserrat+Alternates:wght@200&family=Sofia&display=swap");
 
+header h1{
+	font-family: "Audiowide", Arial, cursive;
+}
+
+h2{
+	font-family: "Lexend Deca", Calibri, sans-serif; 
+}
 main{
 	background-color: wheat;
 	border-bottom: 1px solid #bbb;
@@ -42,9 +50,7 @@ footer {
 }
 
 .heading2 {
-	letter-spacing: 1pt;
 	color: #fff;
-	font-weight: 700;
 	font-size: 0.8rem;
 }
 
@@ -146,9 +152,27 @@ footer{
 	text-align: center;
 }
 
+.hamburger{
+	display: none;
+	cursor: pointer;
+}
+
+.logo{
+	margin-left: 100px;
+	
+}
 /* Small viewports */
 @media only screen and (min-width: 0em) and (max-width: 30em) {
-	
+	.hamburger{
+		display: block;
+		flex-flow: column;
+		color:#fff;
+	}
+
+	.hamburger .bar{
+		color: white;
+	}
+
 	header img {
 		width: 100%;
 		margin-left: -20px;
@@ -175,8 +199,7 @@ footer{
 		display:none;
 	}
 
-	nav{
+	nav ul.hide{
 		display: none;
 	}
 }
-

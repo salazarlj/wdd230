@@ -38,3 +38,20 @@ document.querySelector("#course").textContent = courseName;
 const selection = { month: "long", day: "numeric", year: "numeric" };
 upateDates.textContent =
   new Date().toLocaleDateString("en-US", selection) + currentTime;
+
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+})
+
+document.querySelectorAll (".nav-link").forEach (n=> n.addEventListener("click", () => {
+  hamburger.classList.remove("active");
+  navMenu.classList.remove("active");
+}))
+
+function toggleMenu() {
+  document.getElementById("nav-header").classList.toggle("hide");
+}

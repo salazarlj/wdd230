@@ -28,7 +28,8 @@
         </div>
 
         <nav>
-            <ul>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="nav-header" class="hide">
               <li><a href="index.html" class="active"> 🏡 Home</a></li>
               <li><a href="target-audience.html" class="active"> 👨‍👩‍👧‍👦 Discover</a></li>
               <li><a href="color-scheme.html" class="active"> 📚 Directory </a></li>
@@ -55,6 +56,7 @@
                     </g>
                 </svg></a>
         </div>
+        
     </header>
 
     <div class="actual-date">
@@ -156,19 +158,15 @@
                 <h2 class="heading2"> <strong> <span id="phone"> </span></strong></h2>
                 <h2 class="heading2"> Location Map </h2>
             </div>
-        </div>
-            <br>
-            
-            <section class="text-footer">
+
+            <div class="text-footer">
                 <p>
-                    &copy;<span id="currenYear"></span>
+                    &copy; <span id="currenYear"></span>
                     <span id="project-f2"></span>
                     <strong> <span id="name-author"></span> </strong>
                     <strong> <span id="course"></span> </strong>
-                </p>
-                
-                <p>Last Update: <span id="updateDate"></span></p>
-            </section>
+                    Last Update: <span id="updateDate"></span></p>
+            </div>
         </div>
     </footer>
     <script src="scripts/currentdate.js"></script>
