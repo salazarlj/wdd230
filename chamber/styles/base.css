@@ -26,22 +26,52 @@ footer {
 	color: #fff;;
 }
 
-header,
-main,
-footer {
-	max-width: 767px;
-	margin: 0 auto;
-}
 
 .logo {
-	display: flex;
-	align-items: center;
+	display: grid;
+	flex-flow: row;
 	margin-left: 0.5rem;
 }
 
 .logo img {
 	width: 80px;
 	height: auto;
+	
+}
+
+.grid-footer{
+	display: grid;
+	grid-template-columns: 150px 200px 1fr;
+	grid-template-rows: 100px 20px;
+
+}
+.logo-footer{
+	margin-left: 0.5rem;
+}
+
+.logo-footer img {
+	width: 120px;
+	height: auto;
+	margin-left: 5px;
+}
+
+.infor1-footer{
+	font-size: 0.7rem;
+	text-align: left;
+}
+
+.infor2-footer{
+	font-size: 0.7em;
+	text-align: center;
+}
+
+.infor3-footer{
+	grid-row: 2/3;
+	grid-column: 1/4;
+	/* display: flex;
+	flex-direction: row; */
+	font-size: 0.9rem;
+	text-align: center;
 }
 
 .headings {
@@ -53,6 +83,24 @@ footer {
 	color: #fff;
 	font-size: 0.8rem;
 }
+
+.social {
+	margin-right: 1.5rem;
+}
+
+.social svg {
+	width: 25px;
+	height: auto;
+}
+
+
+header,
+main,
+footer {
+	max-width: 767px;
+	margin: 0 auto;
+}
+
 
 .actual-date{
 	display: block;
@@ -129,38 +177,25 @@ main picture {
 	text-align: center;
 }
 
-footer p {
+/* footer p {
 	padding: .5rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-}
+} */
 
-.social {
-	margin-right: 1.5rem;
-}
-
-.social svg {
-	width: 25px;
-	height: auto;
-}
-
-footer{
+/* footer{
 	display: flex;
 	flex-flow: column;
 	align-items: center;
 	text-align: center;
-}
+} */
 
 .hamburger{
 	display: none;
 	cursor: pointer;
 }
 
-.logo{
-	margin-left: 100px;
-	
-}
 /* Small viewports */
 @media only screen and (min-width: 0em) and (max-width: 30em) {
 	.hamburger{
@@ -201,5 +236,22 @@ footer{
 
 	nav ul.hide{
 		display: none;
+	}
+
+	.grid-footer p {
+	padding: .5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	}
+
+	.grid-footer{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	text-align: center;
+	}
+	.infor1-footer {
+		text-align: center;
 	}
 }

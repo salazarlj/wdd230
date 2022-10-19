@@ -61,4 +61,20 @@
         display: flex;
         flex-flow: row;
     }
+
+    .infor1-footer{
+        margin-top: -20px;
+        font-size: 0.5rem;
+       }
+    
+    .infor2-footer{
+        margin-top: -20px;
+        font-size: 0.5em;
+      }
+    
+    .infor3-footer{
+        font-size: 0.7rem;
+          margin-top: -40px;
+    }
+    
 }
